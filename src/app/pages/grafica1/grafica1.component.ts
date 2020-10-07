@@ -1,5 +1,6 @@
-import { Component} from '@angular/core';
-import { Label, } from 'ng2-charts';
+import { Component } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-grafica1',
@@ -11,6 +12,7 @@ export class Grafica1Component {
 
   public labels1: string[] = ['Pan', 'Refresco', 'Tacos'];
   public data1 = [
-    [10, 20, 50],
+    [10, 15, 40],
   ];
+
 }
